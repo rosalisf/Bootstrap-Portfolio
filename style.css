@@ -1,0 +1,47 @@
+/* Sticky Footer Classes */
+
+/* html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: url("Media/concrete_seamless.png");
+}
+
+h1 {
+  color: #335ed4;
+}
+
+.container {
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 200px;
+  /* margin-bottom: 100px; */
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
