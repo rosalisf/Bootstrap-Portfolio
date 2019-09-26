@@ -19,37 +19,18 @@ body {
   /* background: url("Media/concrete_seamless.png"); */
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    167deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 51%,
+    0deg,
+    rgba(2, 0, 36, 1) 54%,
+    rgba(9, 9, 121, 1) 86%,
     rgba(0, 123, 255, 1) 100%
   );
 }
 
-h1 {
-  color: #335ed4;
-}
-
 .container {
-  background-color: #ffffff;
+  background-color: transparent;
   margin-top: 50px;
   padding-top: 10px;
-  padding-bottom: 150px;
+  padding-bottom: 224px;
 
   /* margin-bottom: 100px; */
 }
-
-/* // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
-
-// Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
-
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
-
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
-
-// Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width */
