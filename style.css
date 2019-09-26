@@ -16,7 +16,14 @@ body {
 /* Other Classes for Page Styling */
 
 body {
-  background: url("Media/concrete_seamless.png");
+  /* background: url("Media/concrete_seamless.png"); */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    167deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 51%,
+    rgba(0, 123, 255, 1) 100%
+  );
 }
 
 h1 {
