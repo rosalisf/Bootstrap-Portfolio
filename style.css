@@ -24,7 +24,7 @@ body {
     rgba(9, 9, 121, 1) 83%,
     rgba(0, 123, 255, 1) 100%
   );
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Big Shoulders Display", Helvetica;
 }
 
 .container {
@@ -32,6 +32,4 @@ body {
   margin-top: 50px;
   padding-top: 10px;
   padding-bottom: 224px;
-
-  /* margin-bottom: 100px; */
 }

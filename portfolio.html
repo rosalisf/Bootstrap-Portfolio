@@ -31,6 +31,63 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <style>
+      a {
+        color: white;
+      }
+      a:hover {
+        color: #007bff;
+        text-decoration: none;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+      }
+      .big-container {
+        padding-bottom: 148px;
+      }
+      .container2 {
+        position: relative;
+        width: 50%;
+      }
+
+      img {
+        display: block;
+        width: 75%;
+        height: auto;
+      }
+
+      .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #020024;
+        opacity: 0.95;
+        overflow: hidden;
+        width: 75%;
+        height: 0;
+        transition: 0.5s ease;
+      }
+
+      .container2:hover .overlay {
+        bottom: 0;
+        height: 100%;
+      }
+
+      .text {
+        white-space: nowrap;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+    </style>
   </head>
 
   <body>
@@ -64,81 +121,78 @@
       </nav>
     </div>
 
-    <div class="container">
-      <h1>Portfolio</h1>
-      <div class="row">
-        <div>
-          <img
-            src="Media/technics-q-c-640-480-1.jpg"
-            alt="Picture of dude holding up an iPad."
-            class="img-thumbnail"
-          />
-          <a class="port-link" href="#">Hangman</a>
-        </div>
-        <div>
-          <img
-            src="Media/technics-q-c-640-480-2.jpg"
-            alt="Picture of dude holding up an iPad."
-            class="img-thumbnail"
-          />
-          <a class="port-link" href="#">RPG Game</a>
-        </div>
-        <div>
-          <img
-            src="Media/technics-q-c-640-480-5.jpg"
-            alt="Picture of dude holding up an iPad."
-            class="img-thumbnail"
-          />
-          <a class="port-link" href="#">Trivia Game</a>
-        </div>
-      </div>
-      <div class="row">
-        <div>
-          <img
-            src="Media/technics-q-c-640-480-7.jpg"
-            alt="Picture of dude holding up an iPad."
-            class="img-thumbnail"
-          />
-          <a class="port-link" href="#">Rutgers Info Widget</a>
-        </div>
-        <div>
-          <img
-            src="Media/technics-q-c-640-480-9.jpg"
-            alt="Picture of dude holding up an iPad."
-            class="img-thumbnail"
-          />
-          <a class="port-link" href="#">Rock Paper Scissors</a>
+    <h1>Portfolio</h1>
+
+    <div class="big-container">
+      <div class="container2">
+        <img
+          src="Media/technics-q-c-640-480-1.jpg"
+          alt="Picture of dude holding up an iPad."
+          class="image"
+        />
+        <div class="overlay">
+          <a class="port-link text" href="#">Hangman</a>
         </div>
       </div>
     </div>
+    <!-- <div class="container">
+      <div>
+        <img
+          src="Media/technics-q-c-640-480-1.jpg"
+          alt="Picture of dude holding up an iPad."
+          class="img-thumbnail"
+        />
+        <div class="overlay">
+          <a class="port-link text" href="#">Hangman</a>
+        </div>
+      </div>
+      <div>
+        <img
+          src="Media/technics-q-c-640-480-2.jpg"
+          alt="Picture of dude holding up an iPad."
+          class="img-thumbnail"
+        />
+        <div class="overlay">
+          <a class="port-link text" href="#">RPG Game</a>
+        </div>
+      </div>
+      <div>
+        <img
+          src="Media/technics-q-c-640-480-5.jpg"
+          alt="Picture of dude holding up an iPad."
+          class="img-thumbnail"
+        />
+        <div class="overlay">
+          <a class="port-link text" href="#">Trivia Game</a>
+        </div>
+      </div>
+
+      <div>
+        <img
+          src="Media/technics-q-c-640-480-7.jpg"
+          alt="Picture of dude holding up an iPad."
+          class="img-thumbnail"
+        />
+        <div class="overlay">
+          <a class="port-link text" href="#">Rutgers Info Widget</a>
+        </div>
+      </div>
+      <div>
+        <img
+          src="Media/technics-q-c-640-480-9.jpg"
+          alt="Picture of dude holding up an iPad."
+          class="img-thumbnail"
+        />
+        <div class="overlay">
+          <a class="port-link text" href="#">Rock Paper Scissors</a>
+        </div>
+      </div>
+    </div> -->
 
     <div class="fixed-bottom">
       <footer class="text-center py-4 bg-dark text-white-50">
         <small>Copyright &copy; 2019</small>
       </footer>
     </div>
-    <style>
-      a {
-        color: white;
-      }
-      a:hover {
-        color: #007bff;
-        text-decoration: none;
-      }
-      h1 {
-        color: white;
-      }
-      .container {
-        padding-bottom: 179px;
-      }
-      .img-thumbnail {
-        width: 400px;
-      }
-      .port-link {
-      }
-      .row {
-        margin-top: 20px;
-      }
-    </style>
   </body>
 </html>
