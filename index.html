@@ -4,182 +4,300 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Rosalis Freebairn</title>
+    <!-- {{!FONT AWESOME LINK }} -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/qza5rqt.css">
+    <link
+      rel="stylesheet"
+      href="styles.css"
+      media="screen"
+      title="no title"
+      charset="utf-8"
+    />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display:300,400,600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      .big-container{
-        padding-bottom: 72px;
-      }
-      h1 {
-        color: white;
-      }
-      p {
-        color: white;
-      }
-      .row {
-        margin-top: 20px;
-      }
-    </style>
-  </head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    
+    <title>Rosalis Freebairn</title>
+    <link rel="shortcut icon" href="./images/rosalis_logo_ .png" />
+  
+  <style>
+      body,
+html {
+  margin: 0;
+}
+
+#intro-text {
+  font-family: "hypatia-sans-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3em;
+  color: #313131;
+  margin-left: 120px;
+  margin-top: 115px;
+}
+
+#top-name {
+  font-family: "hypatia-sans-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5em;
+  color: #313131;
+  margin-left: 120px;
+  margin-top: 15px;
+}
+
+#name-text {
+  font-family: "hypatia-sans-pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.3em;
+  margin-left: 50px;
+  margin-right: 45px;
+  margin-bottom: 20px;
+}
+.about-text {
+  font-family: "hypatia-sans-pro", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 2.1em;
+  margin-left: 50px;
+  margin-right: 45px;
+  margin-bottom: 20px;
+}
+
+.menu {
+  position: fixed;
+}
+#full-logo:hover {
+  background-color: transparent;
+  color: #3273dc;
+}
+
+.hero-background {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#reinvent-ypurself {
+  position: relative;
+}
+
+#logo-menu {
+  position: fixed;
+}
+
+.navbar-item img {
+  max-height: 9em;
+  width: 100%;
+  padding: 20px;
+  margin-left: 400px;
+  position: relative;
+}
+body {
+  background-color: #f0f0f0;
+}
+
+#logo-menu {
+  width: 127px;
+  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: -45px;
+  position: relative;
+}
+
+.menu a {
+  font-family: "hypatia-sans-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+  transform: rotate(-90deg);
+  padding: 44px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  color: black;
+}
+
+.menu a:hover {
+  background-color: transparent;
+}
+
+.column .is-11 {
+  background-clip: rgb(238, 24, 24);
+}
+.menu-list {
+  position: fixed;
+}
+.has-text-white {
+  position: relative;
+  color: black;
+  font-family: "hypatia-sans-pro", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 5em;
+}
+.bg-img-1,
+.bg-img-goth,
+.bg-img-prep,
+.bg-img-kawaii,
+.bg-img-last {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-1 {
+  background-image: url(./images/rosa_front.png);
+  min-height: 100%;
+}
+.bg-img-goth {
+  background-image: url(./images/code.png);
+  min-height: 100%;
+}
+.goth-text {
+  min-height: 100%;
+}
+.bg-img-prep {
+  background-image: url(./images/3arts.png);
+  min-height: 100%;
+}
+
+.bg-img-last {
+  background-image: url(./images/perfume-pop-1.jpg);
+  min-height: 100%;
+}
+
+#last-page-text {
+  height: 150px;
+  margin-bottom: 500px;
+  margin-right: 85px;
+}
+
+  </style>
+
+</head>
 
   <body>
-    <div>
-      <div class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-          <a class="navbar-brand" href="index.html">Rosalis Freebairn</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <div class="columns is-gapless">
+      <div class="column ">
+        <aside class="menu">
+          <p class="menu-label">
+            <a href="#">
+              <img id="logo-menu" src="./images/rosalis_logo_ .png" />
+            </a>
+          </p>
+          <!-- <p id="my_name" class="menu">
+            Rosalis Freebairn
+          </p> -->
+         
+          <ul class="menu-list">
+            <li><a href="https://www.linkedin.com/in/rosalis-freebairn-629ba5126/">LinkedIn</a></li>
+            <li><a href="https://github.com/rosalisf">Github</a></li>
+            <li><a href="https://www.instagram.com/amourpourlalune/">Instagram</a></li>
+            <li><a href="https://soundcloud.com/amourpourlalune">Soundcloud</a></li>
+          </ul>
+        </aside>
       </div>
-<div class="big-container">
-      <div class="container">
-        <h1>Hi, I'm Rosalis</h1>
-        <div class="row">
-          <div class="col-md-2">
-            <img
-              src="Media/rosalis.JPG"
-              alt="Picture of Rosalis"
-              class="img-thumbnail"
-            />
-          </div>
-          <div class="col-md-8">
-            <p>
-              I am a Graphic Designer with Multimedia and Full Stack Developing skills. I am a creative passionate about design, production, and web development.
-            </p>
-
-            <p>
-                I am a Graphic Designer with Multimedia and Full Stack Developing skills. I am a creative passionate about design, production, and web development.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci
-              porta non pulvinar neque laoreet suspendisse interdum consectetur
-              libero. Tellus molestie nunc non blandit massa enim. Orci porta
-              non pulvinar neque laoreet suspendisse interdum consectetur
-              libero. Tellus molestie nunc non blandit massa enim. Orci porta
-              non pulvinar neque laoreet suspendisse interdum consectetur
-              libero. Tellus molestie nunc non blandit massa enim. Orci porta
-              non pulvinar neque laoreet suspendisse interdum consectetur
-              libero.
-            </p>
-          </div>
-          <!-- <div class="col-md-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse
-                        interdum
-                        consectetur libero. Tellus molestie nunc non blandit massa enim.</p>
-                </div> -->
+<!-- Start copying here when done with html -->
+      <div class="column is-11">
+      <div class="hero is-fullheight  has-background bg-img-1">
+        <!-- <img
+          alt="switching clothes"
+          class="hero-background "
+          src="../public/images/swiftly-homepage.gif"
+        /> -->
+        <div class="hero-head">
+          <nav class="navbar">
+            <div class="container">
+                <h2 id="top-name">Rosalis Freebairn</h2>
+              <p id="intro-text">Designer, Web Developer and Artist</p>
+            </div>
+          </nav>
         </div>
-        <div class="row">
-          <!-- <div class="col-md-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse
-                        interdum
-                        consectetur libero. Tellus molestie nunc non blandit massa enim.</p> -->
+        <div class="hero-body"id="reinvent-ypurself">
+          <div class="container has-text-centered">
+            
+          </div>
         </div>
-        <!-- <div class="col-md-8">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci
-            porta non pulvinar neque laoreet suspendisse interdum consectetur
-            libero. Tellus molestie nunc non blandit massa enim.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci
-            porta non pulvinar neque laoreet suspendisse interdum consectetur
-            libero. Tellus molestie nunc non blandit massa enim.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci
-            porta non pulvinar neque laoreet suspendisse interdum consectetur
-            libero. Tellus molestie nunc non blandit massa enim.
-          </p>
-        </div> -->
-
-        <!-- <div class="col-md-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse
-                        interdum
-                        consectetur libero. Tellus molestie nunc non blandit massa enim.</p>
-                </div> -->
       </div>
+      
+    <div style="position: relative;">
+      <div style="color: #f0f0f0;background-color:#f0f0f0;text-align:center;padding:30px 0px 30px 0px;text-align: justify;"></div>
+      <h1 class="about-text" id="name-text"> Rosalis is a Chicago-based Graphic Designer and Web Developer.</h1>
+      <p class="about-text">
+          Beyond her expertise in design and web development, she also produces music, has experience in video production, editing and freelances. She has a BFA with a focus in Visual Communications from School of the Art Institute of Chicago and a Web Development Certification from Northwestern. Scroll down to check everything out!
+    </p>
     </div>
-
-    <!-- <div class="row">
-                <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse
-                        interdum
-                        consectetur libero. Tellus molestie nunc non blandit massa enim.</p>
-                </div>
-                <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse
-                        interdum
-                        consectetur libero. Tellus molestie nunc non blandit massa enim.</p>
-                </div>
-                <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse
-                        interdum
-                        consectetur libero. Tellus molestie nunc non blandit massa enim.</p>
-                </div>
-            </div> -->
-
-    <!-- <footer id="sticky-footer" class="py-4 bg-dark text-white-50"> -->
-    <div class="fixed-bottom">
-      <footer class="text-center py-4 bg-dark text-white-50">
-        <small>Copyright &copy; 2019</small>
-      </footer>
+      
+      <div class="hero is-fullheight bg-img-goth" >
+        <!-- <img id="bg-img-goth"
+          alt="switching clothes"
+          class="hero-background "
+          src="../public/images/goth.png"
+        /> -->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <a href="portfolio.html">
+            <h1 class="title has-text-white">
+              Web Development
+            </h1>
+          </a>
+          </div>
+        </div>
+      </div>
+      
+    <div style="position: relative;">
+      <div style="color: #f0f0f0;background-color:#f0f0f0;text-align:center;padding:30px 0px 30px 0px;text-align: justify;"></div>
+    </div>
+    
+      <div class="hero is-fullheight bg-img-prep">
+        <!-- <img id="bg-img-prep"
+          alt="switching clothes"
+          class="hero-background "
+          src="../public/images/prep_white_bg.png"
+        /> -->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <a href="https://rfo-design.com/">
+            <h1 class="title has-text-white">
+              Design Work
+            </h1>
+          </a>
+          </div>
+        </div>
+      </div>
+    <div style="position: relative;">
+        <div style="color: #f0f0f0;background-color:white;text-align:center;padding:30px 0px 30px 0px;text-align: justify;"></div>
+    </div>
+      
+      <div class="hero is-fullheight bg-img-last">
+        <!-- <img id="bg-img-kawaii"
+          alt="switching clothes"
+          class="hero-background "
+          src="../public/images/kawaii.jpeg"
+        /> -->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <!-- <img src="images/goth.svg" /> -->
+            <a href="contact.html">
+            <h1 class="title has-text-white">
+              Contact
+            </h1>
+          </a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

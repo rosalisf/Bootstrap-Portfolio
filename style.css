@@ -9,7 +9,9 @@ body {
     rgba(9, 9, 121, 1) 83%,
     rgba(0, 123, 255, 1) 100%
   );
-  font-family: "Big Shoulders Display", Helvetica;
+  font-family: "hypatia-sans-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .container {
