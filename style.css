@@ -2,13 +2,8 @@
 
 body {
   /* background: url("Media/concrete_seamless.png"); */
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    0deg,
-    rgba(2, 0, 36, 1) 65%,
-    rgba(9, 9, 121, 1) 83%,
-    rgba(0, 123, 255, 1) 100%
-  );
+  background: rgb(204, 202, 201);
+
   font-family: "hypatia-sans-pro", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -16,7 +11,61 @@ body {
 
 .container {
   background-color: transparent;
-  margin-top: 50px;
+
   padding-top: 10px;
   padding-bottom: 224px;
+}
+
+/* Side menu styling */
+
+.menu {
+  position: fixed;
+}
+
+#logo-menu {
+  position: fixed;
+}
+
+.navbar-item img {
+  max-height: 9em;
+  width: 100%;
+  padding: 20px;
+  margin-left: 400px;
+  position: relative;
+}
+
+#logo-menu {
+  width: 127px;
+  margin-top: 10px;
+  margin-right: -25px;
+  margin-left: -6px;
+  position: relative;
+}
+
+.menu a {
+  font-family: "hypatia-sans-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2em;
+  transform: rotate(-90deg);
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  color: white;
+}
+
+ul {
+  padding-right: 9px;
+}
+ul.menu-list {
+  line-height: 7.84;
+}
+.menu a:hover {
+  background-color: transparent;
+}
+
+.menu-list {
+  position: fixed;
 }
