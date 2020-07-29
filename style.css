@@ -9,7 +9,7 @@ body {
   font-style: normal;
 }
 
-.container {
+.intro-page-container {
   background-color: transparent;
 
   padding-top: 10px;
@@ -22,10 +22,6 @@ body {
 }
 
 /* Side menu styling */
-
-.menu {
-  position: fixed;
-}
 
 #logo-menu {
   position: fixed;
@@ -47,30 +43,35 @@ body {
   position: relative;
 }
 
-.menu a {
-  font-family: "hypatia-sans-pro", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.2em;
-  transform: rotate(-90deg);
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-left: 5px;
-  padding-bottom: 5px;
-  margin-right: 10px;
-  color: white;
+.menu-list {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-ul {
+.nav a {
+  display: block;
+  padding-left: 30px;
+  margin-left: 0px;
+  line-height: 140px;
+  color: #999;
+  text-decoration: none;
+  /* border-left: 1px solid #efefef; */
+  transform: rotate(-90deg);
+}
+
+header {
   padding-right: 9px;
 }
-ul.menu-list {
+header.menu-list {
   line-height: 7.84;
 }
 .menu a:hover {
   background-color: transparent;
-}
-
-.menu-list {
-  position: fixed;
 }
