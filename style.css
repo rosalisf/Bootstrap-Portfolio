@@ -16,6 +16,11 @@ body {
   padding-bottom: 224px;
 }
 
+.bottom-links {
+  color: gray;
+  margin-top: 700px;
+}
+
 /* Side menu styling */
 
 .menu {
