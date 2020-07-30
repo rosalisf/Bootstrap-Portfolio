@@ -15,23 +15,13 @@ body {
 /* Side menu styling */
 
 #logo-menu {
-  position: fixed;
-}
-
-.navbar-item img {
-  max-height: 9em;
-  width: 100%;
-  padding: 20px;
-  margin-left: 400px;
-  position: relative;
-}
-
-#logo-menu {
-  width: 127px;
+  top: 0;
+  left: 0;
+  width: 120px;
+  display: block;
   margin-top: 10px;
-  margin-right: -25px;
-  margin-left: -6px;
   position: relative;
+  transform: rotate(90deg);
 }
 
 .menu-list {
@@ -43,28 +33,33 @@ body {
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
-.nav a {
+a {
   display: block;
-  padding-left: 30px;
+  padding-left: 0px;
   margin-left: 0px;
-  line-height: 140px;
+  line-height: 130px;
   color: #999;
   text-decoration: none;
   /* border-left: 1px solid #efefef; */
   transform: rotate(-90deg);
+  text-align: center;
+}
+
+nav {
 }
 
 .nav a:hover {
-  background-color: transparent;
+  background-color: white;
 }
 
 .has-text-white {
   color: white;
   text-decoration: none;
   text-align: center;
+  transform: rotate(90deg);
 }
 
 .bottom-links {
