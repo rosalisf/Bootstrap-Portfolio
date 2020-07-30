@@ -3,22 +3,13 @@
 body {
   /* background: url("Media/concrete_seamless.png"); */
   background: rgb(204, 202, 201);
-
   font-family: "hypatia-sans-pro", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.intro-page-container {
+#intro-page-container {
   background-color: transparent;
-
-  padding-top: 10px;
-  padding-bottom: 224px;
-}
-
-.bottom-links {
-  color: gray;
-  margin-top: 700px;
 }
 
 /* Side menu styling */
@@ -66,12 +57,17 @@ body {
   transform: rotate(-90deg);
 }
 
-header {
-  padding-right: 9px;
-}
-header.menu-list {
-  line-height: 7.84;
-}
-.menu a:hover {
+.nav a:hover {
   background-color: transparent;
+}
+
+.has-text-white {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.bottom-links {
+  color: gray;
+  margin-top: 700px;
 }
