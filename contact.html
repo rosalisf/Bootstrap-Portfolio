@@ -5,13 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Rosalis Freebairn</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
-    />
+
     <link rel="stylesheet" href="https://use.typekit.net/qza5rqt.css" />
 
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -39,15 +35,20 @@
     />
     <title>Rosalis Freebairn</title>
     <link rel="shortcut icon" href="./images/rosalis_logo_ .png" />
-    <link rel="stylesheet" href="style.css" />
-<style>
+    <link
+      rel="stylesheet"
+      href="style.css"
+      media="screen"
+      title="no title"
+      charset="utf-8"
+    />
+    <style>
+      body,
+      html {
+        margin: 0;
+      }
 
-body,
-html {
-  margin: 0;
-}
-  
-  /* #logo-menu {
+      /* #logo-menu {
   width: 127px;
   margin-top: 10px;
   margin-right: 100px;
@@ -89,7 +90,7 @@ html {
   color: #f0f0f0;
 } */
 
-/* Bootstrap styling */
+      /* Bootstrap styling */
       label {
         color: white;
       }
@@ -100,13 +101,13 @@ html {
       .form-group {
         margin-top: 50px;
         margin-right: 700px;
-        width: 85%
+        width: 85%;
       }
       .row {
         margin-top: 10px;
         margin-bottom: 30px;
         margin-right: 700px;
-        width: 87.7%
+        width: 87.7%;
       }
       h1 {
         font-family: "hypatia-sans-pro", sans-serif;
@@ -127,54 +128,44 @@ html {
         text-align: center;
         font-size: 1.2em;
       }
-      #message-text{
+      #message-text {
         color: black;
       }
-      footer{
-        height:15px;
+      footer {
+        height: 15px;
       }
-      small{
+      small {
         margin-top: -30px;
       }
     </style>
   </head>
 
   <body>
-  <div class="columns is-gapless">
-    <div class="column" style="background-color: #000000;">
-      <aside class="menu" style="background-color: #000000;">
-        <p class="menu-label" style= "margin-right:0px">
-          <a href="index.html">
-            <img id="logo-menu" src="./images/rosalis_logo_white.png" />
-          </a>
-        </p>
-        <!-- <p id="my_name" class="menu">
-          Rosalis Freebairn
-        </p> -->
+    <div class="container">
+      <header class="menu-list">
+        <a href="index.html">
+          <img id="logo-menu" src="./images/rosalis_logo_white.png" />
+        </a>
 
-        <ul class="menu-list">
-          <li>
-            <a
-              href="https://www.linkedin.com/in/rosalis-freebairn-629ba5126/"
-              target="_blank"
-              >LinkedIn</a
-            >
-          </li>
-          <li>
-            <a href="https://github.com/rosalisf" target="_blank">Github</a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/amourpourlalune/" target="_blank"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a href="https://soundcloud.com/amourpourlalune" target="_blank"
-              >Soundcloud</a
-            >
-          </li>
-        </ul>
-      </aside>
+        <!-- Side menu links-->
+        <nav>
+          <a
+            href="https://www.linkedin.com/in/rosalis-freebairn-629ba5126/"
+            target="_blank"
+            >LinkedIn</a
+          >
+
+          <a href="https://github.com/rosalisf" target="_blank">Github</a>
+
+          <a href="https://www.instagram.com/amourpourlalune/" target="_blank"
+            >Instagram</a
+          >
+
+          <a href="https://soundcloud.com/amourpourlalune" target="_blank"
+            >Soundcloud</a
+          >
+        </nav>
+      </header>
     </div>
     <div class="big-container">
       <div class="container">
@@ -209,7 +200,9 @@ html {
             </div>
           </form>
           <div class="form-group">
-            <label id="message-text" for="exampleFormControlTextarea1">Message</label>
+            <label id="message-text" for="exampleFormControlTextarea1"
+              >Message</label
+            >
             <textarea
               class="form-control"
               id="exampleFormControlTextarea1"
@@ -220,10 +213,10 @@ html {
         </form>
       </div>
     </div>
-  <div class="bottom-links">
-   <a href="index.html"> Home </a>
-   <a href="portfolio.html"> Porfolio </a>
-  </div>
+    <div class="bottom-links">
+      <a href="index.html"> Home </a>
+      <a href="portfolio.html"> Porfolio </a>
+    </div>
     <!-- <div class="fixed-bottom">
       <footer class="text-center py-4 bg-dark text-white-50">
         <small>Copyright &copy; 2019</small>
